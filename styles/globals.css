@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary: #a8741f;
+  --second: #a8741a;
+  --star: #e3bb1d;
+  --background: #242424;
+  --text-color: #505a4e;
+  --white: #fff;
+  --black: #000;
+}
+
 tml,
 body {
   padding: 0;
@@ -17,14 +27,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
