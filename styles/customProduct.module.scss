@@ -1,0 +1,10 @@
+.customProduct {
+  .imageProduct {
+    span > img {
+      &:hover {
+        transform: scale(1.5);
+        transition: ease-in-out all 0.3s;
+      }
+    }
+  }
+}

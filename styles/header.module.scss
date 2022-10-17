@@ -1,11 +1,10 @@
-.footer {
+.header {
   .communicationImage {
-    margin-left: 2rem;
+    margin-left: 0.4rem;
 
     &:first-child {
       margin-left: 0;
     }
-
     span {
       background-color: #2f2f2f !important;
       border-radius: 50%;
@@ -15,17 +14,6 @@
         &:hover {
           opacity: 50%;
         }
-      }
-    }
-  }
-
-  .listItem {
-    div {
-      margin-bottom: 1rem;
-      cursor: pointer;
-      &:hover {
-        padding-left: 1rem;
-        transition: ease-in-out all 0.3s;
       }
     }
   }

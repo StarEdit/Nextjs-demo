@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "@/common/Footer";
+import Header from "../common/Header";
 
 interface Props {
   children: React.ReactNode;
@@ -8,8 +9,9 @@ interface Props {
 const MainLayout = ({ children }: Props) => {
   return (
     <>
-      <main>{children}</main>
-      <Footer></Footer>
+      <Header />
+      <main style={{ minHeight: "400px" }}>{children}</main>
+      <Footer />
     </>
   );
 };
