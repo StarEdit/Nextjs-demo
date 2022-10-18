@@ -21,7 +21,7 @@ const Footer = (props: Props) => {
 
   return (
     <footer className={`${cx("footer")} bg-background text-white`}>
-      <div className="flex flex-row justify-between items-center py-14">
+      <div className="flex flex-row justify-between items-start py-14">
         <div className="basis-2/6 flex flex-col justify-between items-center">
           <div className="pb-8 text-[18px] font-semibold">About Us</div>
           <div className="flex-1">
